@@ -1,0 +1,25 @@
+name: smtpexpress
+description: "A package to send emails using SMTP Express"
+version: 0.0.1
+homepage: https://smtpexpress.com/
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  dio: ^5.4.0
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+# The following section is specific to Flutter packages.
+flutter:
+
+
